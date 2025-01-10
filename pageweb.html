@@ -27,9 +27,16 @@
         </ul>
     
     </p>
+    <button>CLick me!</button>
+
 
     <script>
         console.log("Hi Olivier !");
+        let button = document.querySelector('button');
+
+        button.onclick = () => {
+            alert("You clicked on me :)");
+        }
     </script>
 
 </body>
